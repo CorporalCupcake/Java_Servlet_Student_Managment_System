@@ -1,0 +1,12 @@
+<!-- The name="jdbc/JdbcChadDarby" is just the name of this resource, the actual name of the DB is in the URL-->
+
+<Context>
+	<Resource 
+		name="jdbc/JdbcChadDarby"
+		auth="Container" type="javax.sql.DataSource"
+		maxActive="20" maxIdle="5" maxWait="10000"
+		username="root" password="2904"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://192.168.100.103:3306/JdbcChadDarby?useSSL=false&amp;serverTimezone=UTC"
+	/>
+</Context>
